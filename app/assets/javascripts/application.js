@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-//= require ember
-//= require ember-rest
+//= require ./vendor/ember-0.9.6
+//= require ./vendor/ember-rest
 //= require dashit/dashit
 //= require_tree .
