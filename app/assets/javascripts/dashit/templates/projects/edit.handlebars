@@ -1,4 +1,5 @@
 {{#with project}}
+  {{view Ember.TextField valueBinding="user_id" placeholder="User id"}}
   {{view Ember.TextField valueBinding="name" placeholder="Name"}}
   <button type="submit">
     {{#if id}}Update{{else}}Create{{/if}}
